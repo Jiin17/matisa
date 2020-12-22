@@ -35,8 +35,8 @@ $cnx=conectar();
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <div class="modal-body">
      <form action="acceso.php" method="POST" >
+      <div class="modal-body">
           <div class="form-group">
             <label for="exampleFormControlInput1">USUARIO</label>
             <input type="text" class="form-control" name="usuario" placeholder="Ingresar Usuario">
@@ -49,15 +49,15 @@ $cnx=conectar();
       <div class="modal-footer">
         <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
         <input type="submit" class="btn btn-primary" value="INGRESO">
-     </form>
-<form action="acceso.php">
+<!-- <form action="acceso.php">
             <input type="text" class="form-control" name="usuario" placeholder="Ingresar Usuario">
             <input type="test" class="form-control" name="contrasenia" placeholder="Ingresar Contraseña">
 
   <input type="submit" name="" value="hola">
-</form>
+</form> -->
 
       </div>
+     </form>
     </div>
   </div>
 </div>

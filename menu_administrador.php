@@ -67,6 +67,9 @@ if (session_is_registered("idempleado")) {
                 <li>
                     <a href="stock.php" target="formulari1">STOCK</a>
                 </li>
+                <li>
+                    <a href="pagos.php" target="formulari1">PLAN PAGO/S</a>
+                </li>
             </ul>
         </div>
         <!-- /#sidebar-wrapper -->
